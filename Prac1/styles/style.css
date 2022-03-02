@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+.container {
+  margin: auto;
+  width: 75%;
+  height: 100vh;
+  background-color: white;
+  border: solid 2px #96fffb;
+}
+
+.container ul li {
+  margin-bottom: 15px;
+  color: #5549ef;
+  font-weight: bold;
+  list-style-type: circle;
+  color: black;
+}
