@@ -1,0 +1,45 @@
+table,
+th,
+tr {
+  border: solid black 1px;
+}
+
+table {
+  margin: auto;
+  width: 1000px;
+  height: 160px;
+  border-collapse: collapse;
+}
+td {
+  width: 120px;
+}
+.menu {
+  width: 80px;
+}
+.theader {
+  height: 120px;
+  text-align: left;
+  background-image: linear-gradient(to right, #eef3ec, #092c80);
+}
+.headertext {
+  vertical-align: top;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 2em;
+  font-style: italic;
+  color: #25238a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.pic1 {
+  height: 200px;
+  width: 200px;
+  padding-left: 300px;
+  padding-top: 120px;
+}

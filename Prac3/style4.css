@@ -1,0 +1,18 @@
+table,
+th,
+tr,
+td {
+  border: solid black 1px;
+}
+
+table {
+  margin: auto;
+  width: 1000px;
+  height: 160px;
+}
+td {
+  width: 120px;
+}
+.menu {
+  width: 80px;
+}
