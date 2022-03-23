@@ -1,0 +1,21 @@
+table,
+td,
+tr,
+th {
+  border: solid black 1px;
+}
+
+td {
+  height: 40px;
+  width: 50px;
+}
+
+table {
+  margin: auto;
+}
+.hor {
+  background-color: #7fffd9;
+}
+.ver {
+  background-color: #e2b782;
+}

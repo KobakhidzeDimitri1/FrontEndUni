@@ -1,0 +1,43 @@
+.container {
+  height: 340px;
+  width: 600px;
+  margin: auto;
+  border: solid black 2px;
+  position: relative;
+}
+
+.div-1 {
+  background-color: #fe0000;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.div-2 {
+  background-color: #008001;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 100px;
+}
+.div-3 {
+  background-color: #0000fe;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: 160px;
+}
+.div-4 {
+  background-color: #fed700;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 3;
+  top: 190px;
+  left: 220px;
+}
