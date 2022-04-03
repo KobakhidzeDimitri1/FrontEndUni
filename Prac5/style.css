@@ -1,0 +1,44 @@
+.container {
+  margin: auto;
+  width: 400px;
+  height: fit-content;
+  background-color: #ecf0f1;
+  box-sizing: border-box;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+}
+.login {
+  text-align: center;
+  font-size: 2.1em;
+  color: #34495e;
+  padding-top: 20px;
+}
+.input {
+  margin-top: 25px;
+  text-align: center;
+  height: fit-content;
+}
+.input > input {
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: solid grey 1px;
+  padding-left: 10px;
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+.button {
+  background-color: #e74c3c;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.register {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.register > a {
+  color: #3a9bdc;
+  font-size: 0.9em;
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: fit-content;
+  width: 800px;
+  border: solid #bddbae 2px;
+  margin: auto;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #effcef;
+  border-radius: 5px;
+}
+.input-box {
+  width: calc(800px / 2 - 55px);
+  margin-right: 5px;
+  box-sizing: border-box;
+  position: relative;
+  height: fit-content;
+  display: inline-block;
+}
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  border: solid 2px #bddbae;
+  padding-left: 10px;
+  outline: none;
+}
+.input-box textarea {
+  padding-top: 5px;
+}
+.input-box input {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.check-box {
+  width: calc(800px / 2 - 55px);
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 19px;
+  height: fit-content;
+}
+.check-box span {
+  font-weight: bold;
+}
+.check-box div {
+  margin: 20px 0;
+}
+.check-box label {
+  color: #84b388;
+}
+.appointment-btn {
+  margin-top: 35px;
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: 1.5em;
+  background-color: #76cf76;
+  border: none;
+  border-radius: 7px;
+}

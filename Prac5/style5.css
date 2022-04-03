@@ -1,0 +1,47 @@
+.area div label,.area div span {
+    color: #e7c732;
+    font-size: 0.9em;
+
+}
+.area div{
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    height: 40px;
+}
+.mail-input,.password-input,button{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.mail-input{
+    width: 250px;
+
+}
+.mail-input:focus,
+.password-input:focus,
+#level-1:focus,
+.btn-1:hover,
+textarea:focus{
+    outline: #e7c732 solid 2px;
+}
+.password-input{
+    height: 25px;
+}
+#level-1{
+    width: 150px;
+    height: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.checkbox input {
+    margin-left: 15px;
+}
+.btn-1{
+    width: 120px;
+    height: 30px;
+    color: #e7c732;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(131, 62, 65);
+    border: white solid 1px;
+}

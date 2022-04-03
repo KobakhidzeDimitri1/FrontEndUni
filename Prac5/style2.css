@@ -1,0 +1,41 @@
+.container {
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  border: solid #bcbcbc 1px;
+  position: relative;
+  box-sizing: border-box;
+}
+.texts {
+  height: fit-content;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: right;
+}
+.texts > p {
+  margin-bottom: 50px;
+  color: #758396;
+  font-weight: bold;
+}
+.inputs {
+  position: absolute;
+  left: 145px;
+  top: 86px;
+}
+.inputs > input {
+  display: block;
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: #d4dbe6 solid 1px;
+  width: 420px;
+}
+.text-area {
+  border: none;
+  border-bottom: #d4dbe6 solid 1px;
+  height: 110px;
+  width: 420px;
+}
+::placeholder {
+  color: #d4dbe6;
+}

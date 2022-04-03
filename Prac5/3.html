@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-box">
+            <form action="post">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Phone">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Special notes, concerns, or requirements"></textarea>
+            </form>
+        </div>
+        <div class="check-box">
+            <form action="post">
+                <span>What is the best way to reach you?</span>
+                <div>
+                    <input type="radio" name="reach" value="Phone" id="phone">
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input type="radio" name="reach" value="Email" id="email">
+                    <label for="email">Email</label>
+                </div>
+                <span>Days of the week you are avaliable for appointment:</span>
+                <div>
+                    <input type="checkbox" id="monday" name="monday">
+                    <label for="monday">Monday</label><br>
+                    <input type="checkbox" id="Tuesday" name="Tuesday">
+                    <label for="Tuesday">Tuesday</label><br>
+                    <input type="checkbox" id="Wednesday" name="Wednesday">
+                    <label for="Wednesday">Wednesday</label><br>
+                    <input type="checkbox" id="Thursday" name="Thursday">
+                    <label for="Thursday">Thursday</label><br>
+                    <input type="checkbox" id="Friday" name="Friday">
+                    <label for="Friday">Friday</label><br>
+                </div>
+                <span>Best time of day for your appointment:</span>
+                <div>
+                    <input type="checkbox" id="Morning" name="Morning">
+                    <label for="Morning">Morning</label><br>
+                    <input type="checkbox" id="Afernoon" name="Afernoon">
+                    <label for="Afernoon">Afernoon</label><br>
+                </div>
+            </form>
+        </div>
+        <hr style="margin-top: 15px;height: 2px;border: none;background-color: #b8dca9;">
+        <div style="text-align: center;">
+            <button class="appointment-btn">Request My appointment</button>
+        </div>
+    </div>
+    
+</body>
+</html>
