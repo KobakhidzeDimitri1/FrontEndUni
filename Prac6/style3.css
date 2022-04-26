@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: fit-content;
+    height: 600px;
+    border: solid black 1px;
+    margin: auto;
+    display: flex;
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60px;
+}
+.div-1{
+    background-color: #4064e5;
+    border: solid white 3px;
+}
+.container > div > div{
+    background-color: #4064e5;
+    border: solid white 3px;
+    flex: 1;
+}

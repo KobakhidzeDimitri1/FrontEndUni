@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+    border-bottom: solid black 1px;
+    height: fit-content;
+}
+.container > div{
+    height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.container > div > div{
+    background-color: #9bce0b;
+    height: 100%;
+}
+.div-2 div{
+    width: 49%;
+}
+.div-3 div{
+    width: 32%;
+}
+.div-4 div{
+    width: 23.5%;
+}
+.div-5 div{
+    width: 15%;
+}
+.div-6 div{
+    width: 6.5%;
+}
