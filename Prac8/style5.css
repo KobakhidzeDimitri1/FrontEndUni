@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.operators{
+    display: flex;
+    justify-content:center;
+}
+.operators > button{
+    width: fit-content;
+    height: 40px;
+    font-size: 1.5em;
+}
+#answer{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #cccccc;
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    border: solid grey 1px;
+}
+#output{
+    background-color: white;
+    height: 30px;
+    width: 160px;
+    border: solid grey 1px;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.top{
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+.top  label{
+    font-weight: bold;
+    margin-right: 2px;
+    padding-top: 3px;
+}
+.top input{
+    pointer-events: none;
+}
+.buttons{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.buttons button{
+    width: 70px;
+    height: 30px;
+}

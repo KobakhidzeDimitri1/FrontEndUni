@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+            <div class="num-1">
+                <label for="num1-input">Number 1 </label>
+                <input type="text" id="num1-input">
+            </div>
+            <div class="num-2">
+                <label for="num2-input">Number 2 </label>
+                <input type="text" id="num2-input">
+            </div>
+        </div>
+        <div class="operators">
+            <button onclick="add()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="div()">/</button>
+            <button onclick="mul()">*</button>
+            <button onclick="exp()">x^y</button>
+            <button onclick="root()">√</button>
+        </div>
+        <div id="answer">Answer:</div>
+
+    </div>
+    <script src="./2.js"></script>
+</body>
+</html>

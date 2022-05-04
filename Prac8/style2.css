@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.inputs div {
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.inputs label{
+    font-size: 1.5em;
+}
+.inputs input{
+    height: 30px;
+    font-size: 20px;
+    width: 150px;
+}
+.operators{
+    display: flex;
+    justify-content: space-between;
+}
+.operators > button{
+    width: 16%;
+    height: 40px;
+    font-size: 1.5em;
+}
+#answer{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
