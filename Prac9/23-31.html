@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./23-31.css">
+</head>
+<body>
+    <div class="container">
+        <div class="letter-min">
+            <p>სიტყვებში მინიმალური რაოდენობის სიმობლო:</p>
+            <input type="text" id="letermin-el">
+        </div>
+        <div class="letter-max">
+            <p>სიტყვებში მაქსიმალური რაოდენობის სიმობლო:</p>
+            <input type="text" id="letermax-el">
+        </div>
+        <div class="paragraph-min">
+            <p>აბზაცში მინიმალური რაოდენობის სიტყვები:</p>
+            <input type="text" id="parmin-el">
+        </div>
+        <div class="paragraph-max">
+            <p>აბზაცში მაქსიმალური რაოდენობის სიტყვები:</p>
+            <input type="text" id="parmax-el">
+        </div>
+        <div class="paragraph-count">
+            <p>აბზაცების რაოდენობა:</p>
+            <input type="text" id="parcount-el">
+        </div>
+        <div class="language-div">
+            <p>ენის არჩევა:</p>
+            <select name="language" id="language">
+                <option value="Eng">English</option>
+                <option value="Geo">ქართული</option>
+            </select>
+        </div>
+        <div class="button-div">
+            <button onclick="generate()">გენერირება</button>
+        </div>
+        <div class="output-div">
+            <p id="output-el"></p>
+        </div>
+
+    </div>
+    
+    <script src="./23-31.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    margin: auto;
+}
+table,td,tr,th{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+td{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    margin: auto;
+    min-height: 400px;
+    min-width: 350px;
+    max-width: 700px;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.inputs div {
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.inputs label{
+    font-size: 1.5em;
+}
+.inputs input{
+    height: 30px;
+    font-size: 20px;
+    width: 150px;
+}
+.operators{
+    display: flex;
+    justify-content: center;
+}
+.operators > button{
+    width: fit-content;
+    height: 40px;
+    font-size: 1.5em;
+}
+#answer{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
