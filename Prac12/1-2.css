@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-header{
+    height: 5rem;
+    display: flex;
+    padding: 0 30px 0 30px;
+    justify-content: space-between;
+}
+.main-header > div{
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-header img{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.main-header .reg-log{
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+.main-header a{
+    text-decoration: none;
+    color: black;
+}
+.main-header .reg-log .signup a{
+    color: #df723a;
+}
+.main-header .logos{
+    height: 100%;
+    align-items: center;
+}
+.main-header .logos{
+    gap: 5px;
+}
+.horizontal-nav{
+    background-color: #333333;
+    height: 2rem;
+    line-height: 2rem;
+}
+.horizontal-nav ul li{
+    display: inline-block;
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    border: 0 solid silver;
+    border-width: 0 1px 0 0;
+    margin-right: -4px;
+    position: relative;
+}
+.horizontal-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+}
+.horizontal-nav ul li :hover{
+    background-color:dimgray;
+}
+.horizontal-nav .drop-down{
+    position: absolute;
+    display: none;
+}
+.horizontal-nav .drop-down li{
+    display: block;
+    color: white;
+    border: none;
+    border-bottom: white 1px solid;
+    width: 100%;
+    padding-left: 30px;
+}
+.horizontal-nav .drop-down{
+    width: 100%;
+    background-color: #333333;
+}
+.horizontal-nav ul :hover .drop-down{
+    display: block;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    height: 50rem;
+}
+.container > div{
+    border: solid grey 1px;
+}
+.container .big-one{
+    flex: 3;
+    padding: 100px;
+}
+.container .big-one .frame{
+    border: solid grey 1px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .big-one .pic-div{
+    flex: 9;
+    background: url(./images/nature1.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.container .big-one .text-div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding-left: 10px;
+    
+}
+.container .small-one{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.container .small-one > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: solid grey 1px;
+    cursor: pointer;
+}
+.container .small-one div .pic-div{
+    flex: 9;
+}
+.container .small-one div .text-div{
+    flex: 1;
+    padding-left: 5px;
+}
+
+.container .small-one .div-1 .pic-div{
+    background: url(./images/nature2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container .small-one .div-2 .pic-div{
+    background: url(./images/nature3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.container .small-one .div-3 .pic-div{
+    background: url(./images/nature4.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .small-one .div-4 .pic-div{
+    background: url(./images/nature5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
