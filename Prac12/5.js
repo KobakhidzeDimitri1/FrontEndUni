@@ -22,6 +22,7 @@ function playGame(){
     }
     playerMoney += roundAmount
     document.getElementById("player-el").innerText = playerMoney
+    document.cookie = `playerBallance=${playerMoney}`
 
 
 }
