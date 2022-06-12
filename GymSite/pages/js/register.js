@@ -210,3 +210,4 @@ function checkSuccesfulRegisteR(mailDiv,nameDiv,passwordDiv,passwordCheckDiv,pho
 
 }
 
+

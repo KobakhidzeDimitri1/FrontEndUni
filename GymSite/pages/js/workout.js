@@ -51,3 +51,27 @@ function chestFill(){
     }
 }
 chestFill()
+
+function translator(value){
+    let enMenu = ['Home','Info','Exercices','Food-Supplements','Contact','Login','Register']
+    let geMenu = ['მთავარი','ინფორმაცია','ვარჯიშები','კვება-დანამატები','კონტაქტი','შესვლა','რეგისტრაცია']
+    let enSpans = [`<img src="./images/workout/chest.png" alt=""> Chest exercises <span style="color:white;padding-left="10px">(Click for video)</span>`,`<img src="./images/workout/biceps.png" alt=""> Biceps exercices`,'<img src="./images/workout/triceps.png" alt=""> Triceps exercises',`<img src="./images/workout/shoulder.png" alt=""> Shoulder exercises`,`<img src="./images/workout/back.png" alt=""><img src="./images/workout/trapezius.png" alt=""> Back and traps exercises`,`<img src="./images/workout/leg.png" alt=""><img src="./images/workout/calves.png" alt=""> Leg exercises`]
+    let geSpans = [`<img src="./images/workout/chest.png" alt=""> მკერდის ვარჯიშები <span style="color: white;margin-left:10px;">(დააკლიკე ვიდეოსთვის)`,`<img src="./images/workout/biceps.png" alt=""> ბიცეფსის ვარჯიშები`,'<img src="./images/workout/triceps.png" alt=""> ტრიცეფსის ვარჯიშები',`<img src="./images/workout/shoulder.png" alt=""> მხრის ვარჯიშები`,`<img src="./images/workout/back.png" alt=""><img src="./images/workout/trapezius.png" alt=""> ზურგის და ტრაპეციის ვარჯიშები`,`<img src="./images/workout/leg.png" alt=""><img src="./images/workout/calves.png" alt=""> ფეხის ვარჯიშები`]
+    let menu
+    let spans
+    if(value == "Ge"){
+        menu = geMenu
+        spans = geSpans
+    }else{
+        menu = enMenu
+        spans = enSpans
+    }
+    let tagsA = document.getElementsByTagName("a")
+    let headerSpan = document.querySelectorAll(".headers")
+    for(let i = 1; i<=tagsA.length;i++){
+        tagsA[i-1].innerText = menu[i-1]
+    }
+    for(let i = 1; i<=headerSpan.length;i++){
+        headerSpan[i-1].innerHTML = spans[i-1]
+    }
+}

@@ -11,7 +11,10 @@
 </head>
 <body>
     <header class="main-header">
-        
+        <div class="switcher">
+            <button id="Geo" onclick="translator('Ge')">GE</button>
+            <button id="En" onclick="translator('En')">EN</button>
+        </div>
 
         <div class="bottom-header">
             <div class="header-nav">
@@ -49,12 +52,12 @@
             <span id="recover-span"><a href="#" id="recover-anchor">დაგავიწყდა?</a></span>
         </div>
         <div class="save-div" style="flex-direction: row;">
-            <input type="checkbox"><span>დამახსოვრება</span>
+            <input type="checkbox"><span id = "saver">დამახსოვრება</span>
         </div>
         <div class="loginbtn-div">
             <button class="loginbtn-el">შესვლა</button>
         </div>
     </div>
-    
+    <script src="./js/login.js"></script>
 </body>
 </html>
